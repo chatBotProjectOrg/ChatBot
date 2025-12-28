@@ -1,0 +1,12 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f4f6f8, #e9edf2);
+}
+
+.card {
+  width: 100%;
+  max-width: 380px;
+}
