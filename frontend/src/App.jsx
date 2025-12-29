@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Login from "./components/Auth/Login";
 import Dashboard from "./pages/Dashboard";
 import { ProtectedRoute } from "./layouts/ProtectedRoute";
-import Chat from "./pages/Chat";
+
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         path="/dashboard"
         element={
           <ProtectedRoute>
-            <Chat />
+            <Dashboard />
           </ProtectedRoute>
         }
       />
